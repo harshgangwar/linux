@@ -1,0 +1,88 @@
+sudo apt-get update
+cheese -for webcam
+mysql -u root -p  - for mysql
+apt -The apt-get command is a powerful command-line tool, which works with Ubuntu's Advanced Packaging Tool (APT) performing such functions as installation of new software packages, upgrade of existing software packages, updating of the package list index, and even upgrading the entire Ubuntu system.
+
+Directory
+
+// Tomcat server
+            %CATALINA_HOME%\bin\startup.bat
+ 
+//start           or
+ 
+            C:\apache-tomcat-5.5.29\bin\startup.bat
+//stop
+
+             $CATALINA_HOME/bin/startup.sh
+ 
+                 or
+ 
+             /usr/local/apache-tomcat-5.5.29/bin/startup.sh
+
+//MY Linux - TOMCAT
+harsh@finalize:/opt/apache-tomcat-7.0.62$ /opt/apache-tomcat-7.0.62//bin/startup.sh
+ AND  cd 
+
+// Top 29 linux command
+1. ls – List
+2. mkdir – Make Directory
+3. pwd – Print Working Directory
+4. cd – Change Directory
+5. rmdir – Remove Directory
+6. rm – Remove // remove file/folder as. rm -r txt.file or rm txt.file
+7. cp – Copy //e.g. cp <source-file> <destination-file>
+8. mv – MoVe//mv <source> <destination>tail <file-name> prints the last 10 lines (by default) of the given file on the standard output (i.e., the computer’s screen or monitor). You can use tail -n N <file-name> to dictate the last N number of lines to print on the screen.
+9. cat – concatenate and print files//eg. cat name.txt site.txt
+10. tail – print TAIL (from last) >//tail <file-name> prints the last   10 lines (by default) of the given file on the standard output (i.e., the computer’s screen or monitor). You can use tail -n N <file-name> to dictate the last N number of lines to print on the screen.
+11. less – print LESS//less <file-name> prints the given file page by page (or window by window). It’s useful and efficient for viewing large files containing lots of textual data that won’t fit on the screen. You can press Ctrl+F to go forward and Ctrl+B to go backward by one page. It’s the same as you viewing the contents of a text file in a text viewer or editor and reading the file page by page in GUI.
+12. grep //grep "<string>" <file-name> searches for a given string in a given file. You can use grep -i "<string>" <file-name> to make a case-insensitive search and grep -r "<string>" <file-name> to search for the given string in all files recursively in the current working directory.
+13. Find//This command searches for files matching specified criteria in the given location. You can use find <folder-to-search> -name <file-name> its ‘-name’ option to make a case sensitive search and find <folder-to-search> -iname <file-name> to make a case-insensitive search for files with the given file names.
+14. tar //This command creates, views and extracts tar archives. You can use tar -cvf <archive-name.tar> <file1-OR-file2-OR-both-to-archive> to create,tar -tvf <archive-to-view.tar> to view and tar -xvf <archive-to-extract.tar> to extract tar archives.
+15. gzip //gzip <filename> creates and extracts gzip archives. You can use its gzip -d <filename> to extract gzip archives.
+16. unzip//unzip <archive-to-extract.zip> unzips a given zip archive. You can use unzip -l <archive-to-extract.zip> to view the contents of the zip file without extracting it. It’s the same as you using an archive program to extract zip archives in GUI.
+17. help//<command-name> --help lists all the available commands in the terminal. You can use ‘-h’ or ‘–help’ (help has two hyphens here) option with any command to get help for that specific command.
+18. whatis – What is this command// eg whatis ls
+19. man – Manual //man <command-name>
+20. exit//exit ends the current terminal (bash) session. 
+21. ping//ping <remote-host-address> pings a remote host (server) by sending ping packets. It can be used to check for network connectivity or the status (up and running or otherwise) of a server. It’s the same as you pinging a host using the network manager in GUI.
+22. who – Who Is logged in//who shows the list of currently logged in users.
+23. su – Switch User//su <username> switches to a different user. Super user (root) can switch to any other user in the terminal even without using their password.
+24. uname//uname shows important information about your system such as kernel name, host name, kernel release number, processor type and various others. You can use uname -a to view all information.
+25. free – Free memory//free shows information about the free, used, swap memory available (or currently free) in your system. You can use free -m to view memory in KBs and free –g to view memory in GBs.
+26. df – Disk space Free//df shows information about the file system’s disk space usages – used and available storage space on your hard disk and other storage devices. You can use df -h to view the space usages in human readable form (i.e. memory in GBs).
+27. ps – ProcesseS//ps displays information about the running processes of the system.
+28. Top – TOP processes//top shows information about the top processes in the system (sorted by CPU usage by default). You can use top -u <username> to view the top processes of a single user. It’s the same as you viewing the list of the most resource-hungry running processes using some task manager in GUI.
+29. shutdown//shutdown shuts down your computer. You can use shutdown -r to restart your computer.
+
+
+extra-
+http://www.techgig.com/readnews.php?category=Future+Tech&tgnews_link=http%3A%2F%2Frss.feedsportal.com%2Fc%2F35261%2Ff%2F656072%2Fs%2F4775cbca%2Fsc%2F15%2Fl%2F0L0Shongkiat0N0Cblog0Cbasic0Elinux0Ecommands0C%2Fstory01.htm&tg_type=rss&tgnews_id=57379
+
+
+
+ORACLE DB installation link -
+
+http://blog.whitehorses.nl/2014/03/18/installing-java-oracle-11g-r2-express-edition-and-sql-developer-on-ubuntu-64-bit/
+
+
+
+///// to start the oracle db
+sudo service oracle-xe start
+
+
+/////hotspot start
+sudo ap-hotspot start
+sudo rm /tmp/hotspot.pid
+sudo ap-hotspot configure
+sudo ap-hotspot stop
+sudo ap-hotspot restart
+ap-hotspot
+url- http://www.webupd8.org/2013/06/how-to-set-up-wireless-hotspot-access.html
+
+
+
+
+
+///youtube video download link
+youtube-dl YouTube-(or-other-website)-video-link
+
