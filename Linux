@@ -86,3 +86,7 @@ url- http://www.webupd8.org/2013/06/how-to-set-up-wireless-hotspot-access.html
 ///youtube video download link
 youtube-dl YouTube-(or-other-website)-video-link
 
+
+//-- authentication and install software
+ sudo chmod +x file_name
+ ./ file_name
