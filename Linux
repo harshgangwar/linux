@@ -90,3 +90,8 @@ youtube-dl YouTube-(or-other-website)-video-link
 //-- authentication and install software
  sudo chmod +x file_name
  ./ file_name
+
+
+//-- XAMPP server
+To start the server -  /opt/lampp/lampp start
+To give permission -   chmod 777 -R /opt/lampp/htdocs/
