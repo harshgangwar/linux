@@ -96,6 +96,11 @@ youtube-dl YouTube-(or-other-website)-video-link
 To start the server -  /opt/lampp/lampp start
 To give permission -   chmod 777 -R /opt/lampp/htdocs/
 To stop/start mysql - sudo service mysql stop
+// --LAMP--
+sudo /opt/lampp/lampp start
+sudo service mysql stop
+sudo /opt/lampp/lampp start
+
 
 
 
